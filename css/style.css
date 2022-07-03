@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg: rgb(250, 250, 250);
+    --main-color:rgb(13, 110, 253);
+    --icon-size: 3rem;
+    --p-color:rgb(128, 128, 128);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar div i{
+    
+}
+.navbar div .items{
+    display: none;
+}
+.navbar div .items ul{
+    list-style: none;
+}
+.navbar div .items ul li{
+    display: inline-block;
+}
+nav div a div ul li a{
+
+}
+.about{
+
+}
+.about div{ 
+    
+}
+.about div div h2{
+    font-size: 2.7rem;
+}
+.about div div p{
+    margin: 40px 60px;
+    width: 70%;
+}
+.field div div i{
+    font-size: var(--icon-size);
+    margin: 70px 0px 20px 0px;
+}
+.field div div p{
+    margin: 8px auto;
+    width: 70%;
+}
+.Publication{
+    background-color: var(--bg)
+}
+.Publication div div img{
+    width: 100%;
+}
+.Publication div{
+    background-color: var(--bg);
+}
+.Publication div div{
+    background-color: var(--bg);
+
+}
+.Publication div div div{
+    text-align: center;
+}
+.Publication div div div div div i{
+    font-size: var(--icon-size);
+    color: var(--main-color);
+}
+@media(min-width:768px){
+    .Publication{
+
+        padding: 70px 0px;
+    }
+    .Publication div div h3{
+        text-align: start;
+        text-decoration: wavy;
+    }
+    .Publication div div p{
+        text-align: start;
+        color: var(--p-color);
+    }
+    .Publication div div div div div h3{
+        text-align: center;
+    }
+    .Publication div div div div div p{
+        text-align: center;
+    }
+
+}
+@media(min-width:992px){
+
+}
+@media(min-width:1200px){
+
+}
+
+
+
+
+
+
