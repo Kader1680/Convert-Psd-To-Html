@@ -69,6 +69,40 @@ nav div a div ul li a{
     font-size: var(--icon-size);
     color: var(--main-color);
 }
+
+
+.watch{
+    background-image: url('../images/background/promo-video-back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    padding: 206px 77px;
+}
+
+.watch h2{
+    
+}
+.watch p{
+    
+}
+.watch i{
+    display: flex;
+    font-size: 4rem;
+    margin: 49px 0px;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media(min-width:768px){
     .Publication{
 
