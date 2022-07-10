@@ -8,6 +8,7 @@
     --main-color:rgb(13, 110, 253);
     --icon-size: 3rem;
     --p-color:rgb(128, 128, 128);
+    --dark-contact:rgb(26, 27, 31);
 }
 .navbar{
     display: flex;
@@ -93,8 +94,15 @@ nav div a div ul li a{
     justify-content: space-around;
 }
 
+.download{
 
-
+}
+.download div div div div{
+    
+}
+.contact{
+    background-color: var(--dark-contact);
+}
 
 
 
