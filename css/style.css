@@ -135,8 +135,179 @@ nav div a div ul li a{
 @media(min-width:992px){
 
 }
-@media(min-width:1200px){
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1200px){
+    .navbar {
+        margin: 0px 4rem;
+    }
+    .navbar div i {
+        margin: 0px 70px;
+    }
+    .navbar div .items{
+        display: none;
+    }
+    .navbar div .items ul{
+        list-style: none;
+    }
+    .navbar div .items ul li{
+        display: inline-block;
+    }
+    nav div a div ul li a{
+    
+    }
+    .about div{
+    
+    }
+    .about div div img {
+        width: 19rem;
+    }
+    .about div div h2 {
+        margin-left: 6rem;
+    }
+    .about div div p {
+        margin: 40px 8rem;
+        font-size: 16px;
+    }
+
+    .field{
+        width: 66rem;
+        margin: 0px 7rem;
+    }
+    /* .field div{
+    
+    }
+    .field div div i{
+        font-size: var(--icon-size);
+        margin: 70px 0px 20px 0px;
+    }
+    .field div div p{
+        margin: 8px auto;
+        width: 70%;
+    } */
+    .Publication{
+        padding: 4rem 9rem;
+        background-color: var(--bg)
+    }
+    /* .Publication div div img{
+        width: 100%;
+    }
+    .Publication div{
+        background-color: var(--bg);
+    }
+    .Publication div div{
+        background-color: var(--bg);
+    
+    }
+    .Publication div div div{
+        text-align: center;
+    }
+    .Publication div div div div div i{
+        font-size: var(--icon-size);
+        color: var(--main-color);
+    } */
+    
+    
+    .watch{
+        padding: 206px 200px;
+    }
+    
+    .watch h2{
+        
+    }
+    .watch p{
+        
+    }
+    .watch i{
+        display: flex;
+        font-size: 4rem;
+        margin: 49px 0px;
+        justify-content: space-around;
+    }
+    
+    .download{
+    
+    }
+    .download .dow_typ {
+        width: 67rem;
+        margin-left: 6rem;
+    }
+    .contact{
+        background-color: var(--dark-contact);
+    }
 }
 
 
