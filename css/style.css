@@ -71,6 +71,54 @@ nav div a div ul li a{
     color: var(--main-color);
 }
 
+.swiper{
+    
+    
+}
+.swiper .swiper-wrapper{
+    
+    
+}
+.swiper-wrapper .swiper-slide{
+    
+    
+}
+.swiper-slide .op{
+    margin: 0px 75px;
+    text-align: center;
+    
+}
+.op p{
+    
+    
+}
+.swiper .prev i{
+    font-size: 2.5rem;
+    color: white 00.0.;
+    background-color: black;
+    padding: 12px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 12rem;
+    
+    
+    margin: 0px 70px;
+}
+.swiper .next i{
+    font-size: 2.5rem;
+    background-color: red;
+    padding: 12px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 12rem;
+    margin: 0px 70px;
+    right: 0;
+}
+.swiper .swiper-wrapper div{
+    height: 30rem;
+}
 
 .watch{
     background-image: url('../images/background/promo-video-back.jpg');
@@ -307,6 +355,20 @@ nav div a div ul li a{
     }
     .contact{
         background-color: var(--dark-contact);
+    }
+    .fld .social{
+        font-size: 1.5rem;
+    }
+    .social i{
+        background-color: rgb(52, 58, 64);
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .contact .row{
+        width: 49rem;
+    }
+    footer{
+        background-color: rgb(52, 58, 64);
     }
 }
 
