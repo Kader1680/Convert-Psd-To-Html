@@ -94,8 +94,8 @@ nav div a div ul li a{
 }
 .swiper .prev i{
     font-size: 2.5rem;
-    color: white 00.0.;
-    background-color: black;
+    color: white;
+    background-color: rgb(188, 183, 183);
     padding: 12px;
     border-radius: 50%;
     position: absolute;
@@ -107,7 +107,8 @@ nav div a div ul li a{
 }
 .swiper .next i{
     font-size: 2.5rem;
-    background-color: red;
+    color: white;
+    background-color: rgb(188, 183, 183);
     padding: 12px;
     border-radius: 50%;
     position: absolute;
@@ -153,9 +154,15 @@ nav div a div ul li a{
 }
 
 
+.saquare{
+    box-shadow: 0px 0px 20px 12px #a8a6a6;
+    margin: 0px 57px;
+}
 
-
-
+.saquare p{
+    margin: 25px 30px;
+    padding: 30px 0px;
+}
 
 
 
