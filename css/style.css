@@ -160,6 +160,7 @@ nav div a div ul li a{
 }
 
 .contact{
+    padding: 5rem 1px;
     background-color: var(--dark-contact);
 }
 .contact div div .fld{
@@ -171,8 +172,18 @@ nav div a div ul li a{
     background-color: white;
     border-radius: 6px;
 }
-.contact div div .fld i{
+.contact div div .fld{
     
+}
+.contact div div .fld div{
+    margin-left: 1rem;
+}
+.contact div div .fld div i{
+    font-size: 2rem;
+    margin: 0px 8px;
+    padding: 3px 5px;
+    border-radius: 50%;
+    background-color: var(--bs-gray-400);
 }
 .contact div div .row div{
     margin: 50px 0px;
