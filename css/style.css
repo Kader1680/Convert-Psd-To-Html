@@ -143,11 +143,18 @@ nav div a div ul li a{
     justify-content: space-around;
 }
 
-.download{
+.download div div div div{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.download div div div div p{
+    margin: 7px 19px;
 
 }
-.download div div div div{
-    
+.download div div div div i{
+    margin: 0px 29px;
 }
 .saquare{
     box-shadow: 0px 0px 20px 12px #a8a6a6;
@@ -212,13 +219,103 @@ nav div a div ul li a{
     .contact div div .row div{
         padding: 0px 8rem;
     }
+    .contact{
+        padding: 5rem 1px;
+        background-color: var(--dark-contact);
+    }
+    .contact div div .fld{
+    
+    }
+    .contact div div .fld img{
+        margin: 30px 28px;
+        width: 11rem;
+        background-color: white;
+        border-radius: 6px;
+    }
+    .contact div div .fld{
+        
+    }
+    .contact div div .fld div{
+        margin-left: 1rem;
+    }
+    .contact div div .fld div i{
+        font-size: 2rem;
+        margin: 0px 8px;
+        padding: 3px 5px;
+        border-radius: 50%;
+        background-color: var(--bs-gray-400);
+    }
+    .contact div div .row div{
+        margin: 50px 0px;
+        padding: 0px 3rem;
+    }
 
 }
 @media(min-width:992px){
-
+    .contact{
+        padding: 5rem 1px;
+        background-color: var(--dark-contact);
+    }
+    .contact div div .fld{
+    
+    }
+    .contact div div .fld img{
+        margin: 30px 28px;
+        width: 11rem;
+        background-color: white;
+        border-radius: 6px;
+    }
+    .contact div div .fld{
+        
+    }
+    .contact div div .fld div{
+        margin-left: 1rem;
+    }
+    .contact div div .fld div i{
+        font-size: 2rem;
+        margin: 0px 8px;
+        padding: 3px 5px;
+        border-radius: 50%;
+        background-color: var(--bs-gray-400);
+    }
+    .contact div div .row div{
+        margin: 50px 0px;
+        padding: 0px 3rem;
+    }
 }
 
-
+@media(min-width:1200px){
+    .contact{
+        padding: 60px 3rem;
+        width: 101%;
+    }
+    .contact div div .fld img{
+        margin: 30px 28px;
+        width: 11rem;
+        background-color: white;
+        border-radius: 6px;
+    }
+    .contact div div .fld{
+        margin: 0px 55px;
+        margin-bottom: 3rem;
+    }
+    .contact div div .fld div{
+        margin-left: 1rem;
+    }
+    .contact div div .fld div i{
+        font-size: 2rem;
+        margin: 0px 8px;
+        padding: 3px 5px;
+        border-radius: 50%;
+        background-color: var(--bs-gray-400);
+    }
+    .contact div div .row div{
+        font-size: 25px;
+        padding: 0px 6rem;
+        margin: 0px -2px;
+    }
+    
+}
 
 
 
@@ -329,6 +426,7 @@ nav div a div ul li a{
         width: 66rem;
         margin: 0px 7rem;
     }
+
     /* .field div{
     
     }
@@ -344,24 +442,6 @@ nav div a div ul li a{
         padding: 4rem 9rem;
         background-color: var(--bg)
     }
-    /* .Publication div div img{
-        width: 100%;
-    }
-    .Publication div{
-        background-color: var(--bg);
-    }
-    .Publication div div{
-        background-color: var(--bg);
-    
-    }
-    .Publication div div div{
-        text-align: center;
-    }
-    .Publication div div div div div i{
-        font-size: var(--icon-size);
-        color: var(--main-color);
-    } */
-    
     
     .watch{
         padding: 206px 200px;
@@ -386,6 +466,19 @@ nav div a div ul li a{
     .download .dow_typ {
         width: 67rem;
         margin-left: 6rem;
+    }
+    .download div div div div{
+        display: flex;
+        width: 80%;
+        align-items: center;
+        font-size: 1.3rem;
+    }
+    .download div div div div p{
+        margin: 7px 19px;
+    
+    }
+    .download div div div div i{
+        margin: 0px 29px;
     }
     .contact{
         background-color: var(--dark-contact);
