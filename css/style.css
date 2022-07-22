@@ -149,11 +149,6 @@ nav div a div ul li a{
 .download div div div div{
     
 }
-.contact{
-    background-color: var(--dark-contact);
-}
-
-
 .saquare{
     box-shadow: 0px 0px 20px 12px #a8a6a6;
     margin: 0px 57px;
@@ -164,7 +159,25 @@ nav div a div ul li a{
     padding: 30px 0px;
 }
 
+.contact{
+    background-color: var(--dark-contact);
+}
+.contact div div .fld{
 
+}
+.contact div div .fld img{
+    margin: 30px 28px;
+    width: 11rem;
+    background-color: white;
+    border-radius: 6px;
+}
+.contact div div .fld i{
+    
+}
+.contact div div .row div{
+    margin: 50px 0px;
+    padding: 0px 3rem;
+}
 
 @media(min-width:768px){
     .Publication{
@@ -184,6 +197,9 @@ nav div a div ul li a{
     }
     .Publication div div div div div p{
         text-align: center;
+    }
+    .contact div div .row div{
+        padding: 0px 8rem;
     }
 
 }
