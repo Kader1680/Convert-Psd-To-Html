@@ -1,7 +1,7 @@
 # LandingPage
 <h2>Large Screen</h2>
 
-![screencapture-kader1680-github-io-Personel-Site-2022-07-23-17_55_25](https://user-images.githubusercontent.com/87822994/180615504-0b083297-e7c4-40df-8c2e-4064454af0ab.png)
+![screencapture-kader1680-github-io-LandingPage-2022-07-23-18_08_19](https://user-images.githubusercontent.com/87822994/180615571-47d05e64-798e-4cb9-851b-4b90567a8520.png)
 
 
 <h2>Large Screen</h2>
