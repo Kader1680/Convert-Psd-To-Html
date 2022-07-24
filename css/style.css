@@ -33,7 +33,9 @@ nav div a div ul li a{
 
 }
 .about{
-
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .about div{ 
     
@@ -236,6 +238,64 @@ nav div a div ul li a{
     margin: 50px 0px;
     padding: 0px 3rem;
 }
+footer{
+    background-color: rgb(52, 58, 64);
+    color: white;
+    text-align: center;
+    padding: 22px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(min-width:768px){
     .navbar div i{
@@ -330,7 +390,97 @@ nav div a div ul li a{
         padding: 0px 3rem;
     }
 
+    .swiper{
+    
+    
+    }
+    .swiper .swiper-wrapper{
+        
+        
+    }
+    .swiper-wrapper .swiper-slide{
+        
+        
+    }
+    .swiper-slide .op{
+        margin: 0px 75px;
+        text-align: center;
+        
+    }
+    .op p{
+        
+        
+    }
+    .swiper .prev i{
+        font-size: 2.5rem;
+        color: white;
+        background-color: rgb(188, 183, 183);
+        padding: 12px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 2;
+        top: 12rem;
+        
+        
+        margin: 0px 70px;
+    }
+    .swiper .next i{
+        font-size: 2.5rem;
+        color: white;
+        background-color: rgb(188, 183, 183);
+        padding: 12px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 2;
+        top: 12rem;
+        margin: 0px 70px;
+        right: 0;
+    }
+    .swiper .swiper-wrapper div{
+        height: 30rem;
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(min-width:992px){
     .field div{
         
@@ -373,6 +523,55 @@ nav div a div ul li a{
     .contact div div .row div{
         margin: 50px 0px;
         padding: 0px 3rem;
+    }
+    .swiper{
+    
+    
+    }
+    .swiper .swiper-wrapper{
+        
+        
+    }
+    .swiper-wrapper .swiper-slide{
+        
+        
+    }
+    .swiper-slide .op{
+        margin: 0px 75px;
+        text-align: center;
+        
+    }
+    .op p{
+        
+        
+    }
+    .swiper .prev i{
+        font-size: 2.5rem;
+        color: white;
+        background-color: rgb(188, 183, 183);
+        padding: 12px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 2;
+        top: 12rem;
+        
+        
+        margin: 0px 70px;
+    }
+    .swiper .next i{
+        font-size: 2.5rem;
+        color: white;
+        background-color: rgb(188, 183, 183);
+        padding: 12px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 2;
+        top: 12rem;
+        margin: 0px 70px;
+        right: 0;
+    }
+    .swiper .swiper-wrapper div{
+        height: 30rem;
     }
 }
 
@@ -627,6 +826,55 @@ nav div a div ul li a{
         font-size: 25px;
         padding: 0px 6rem;
         margin: 0px -2px;
+    }
+    .swiper{
+    
+    
+    }
+    .swiper .swiper-wrapper{
+        
+        
+    }
+    .swiper-wrapper .swiper-slide{
+        
+        
+    }
+    .swiper-slide .op{
+        margin: 0px 75px;
+        text-align: center;
+        
+    }
+    .op p{
+        
+        
+    }
+    .swiper .prev i{
+        font-size: 2.5rem;
+        color: white;
+        background-color: rgb(188, 183, 183);
+        padding: 12px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 2;
+        top: 12rem;
+        
+        
+        margin: 0px 70px;
+    }
+    .swiper .next i{
+        font-size: 2.5rem;
+        color: white;
+        background-color: rgb(188, 183, 183);
+        padding: 12px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 2;
+        top: 12rem;
+        margin: 0px 70px;
+        right: 0;
+    }
+    .swiper .swiper-wrapper div{
+        height: 30rem;
     }
 }
 
