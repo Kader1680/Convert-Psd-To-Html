@@ -5,10 +5,13 @@
 }
 :root{
     --bg: rgb(250, 250, 250);
-    --main-color:rgb(13, 110, 253);
+    --main-color:#007bff;
     --icon-size: 3rem;
     --p-color:rgb(128, 128, 128);
     --dark-contact:rgb(26, 27, 31);
+}
+nav{
+    
 }
 .navbar{
     display: flex;
@@ -36,15 +39,35 @@ nav div a div ul li a{
     
 }
 .about div div h2{
-    font-size: 2.7rem;
+    font-size: 46px;
 }
 .about div div p{
+    font-size: 16px;
     margin: 40px 60px;
     width: 70%;
 }
+.field{
+    margin: 23px 22px;
+    box-shadow: 2px 7px 14px 3px grey;
+    
+}
+.field div{
+    margin: 0px 0px;
+    
+    
+}
+.field div div{
+    
+    
+}
+.field div div h3{
+    font-size: 20px;
+    margin-top: 1rem;
+    
+}
 .field div div i{
-    font-size: var(--icon-size);
-    margin: 70px 0px 20px 0px;
+    font-size: 40px;
+    margin-top: 6rem;
 }
 .field div div p{
     margin: 8px auto;
@@ -55,19 +78,30 @@ nav div a div ul li a{
 }
 .Publication div div img{
     width: 100%;
+    padding-top: 4rem;
+}
+.Publication div div h3{
+    font-size: 20px;
+    font-weight: 300;
+    width: 99%;
+    margin: 5px 0px;
+}
+.Publication div div p{
+    margin: 15px 50px;
 }
 .Publication div{
     background-color: var(--bg);
 }
 .Publication div div{
     background-color: var(--bg);
+    
 
 }
 .Publication div div div{
     text-align: center;
 }
 .Publication div div div div div i{
-    font-size: var(--icon-size);
+    font-size: 20px;
     color: var(--main-color);
 }
 
@@ -127,20 +161,26 @@ nav div a div ul li a{
     background-size: cover;
     width: 100%;
     color: white;
-    padding: 206px 77px;
+    padding: 180px 77px;
 }
 
 .watch h2{
-    
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 50px;
 }
 .watch p{
-    
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 25px;
 }
 .watch i{
     display: flex;
     font-size: 4rem;
     margin: 49px 0px;
     justify-content: space-around;
+    font-size: 6rem;
+    color: var(--main-color);
 }
 
 .download div div div div{
@@ -198,6 +238,46 @@ nav div a div ul li a{
 }
 
 @media(min-width:768px){
+    .navbar div i{
+        display: none;
+    }
+    .navbar div .items{
+        display: block;
+    }
+    .navbar div .items ul{
+        margin: 0px 0px;
+    }
+    
+    .navbar div .items ul li{
+        display: inline-block;
+    }
+    nav div a div ul li a{
+    
+    }
+    .about{
+
+    }
+    .about div{ 
+        
+    }
+    .about div div h2{
+        
+    }
+    .about div div p{
+
+    }
+    .field div{
+        
+    }
+    .field div div{
+        
+    }
+    .field div div i{
+        font-size: 40px;
+    }
+    .field div div p{
+        
+    }
     .Publication{
 
         padding: 70px 0px;
@@ -252,6 +332,18 @@ nav div a div ul li a{
 
 }
 @media(min-width:992px){
+    .field div{
+        
+    }
+    .field div div{
+        
+    }
+    .field div div i{
+        
+    }
+    .field div div p{
+        
+    }
     .contact{
         padding: 5rem 1px;
         background-color: var(--dark-contact);
@@ -285,6 +377,18 @@ nav div a div ul li a{
 }
 
 @media(min-width:1200px){
+    .field div{
+        
+    }
+    .field div div{
+        
+    }
+    .field div div i{
+        font-size: 40px;
+    }
+    .field div div p{
+        
+    }
     .contact{
         padding: 60px 3rem;
         width: 101%;
