@@ -376,64 +376,6 @@ nav div a div ul li a{
     }
 }
 
-@media(min-width:1200px){
-    .field div{
-        
-    }
-    .field div div{
-        
-    }
-    .field div div i{
-        font-size: 40px;
-    }
-    .field div div p{
-        
-    }
-    .contact{
-        padding: 60px 3rem;
-        width: 101%;
-    }
-    .contact div div .fld img{
-        margin: 30px 28px;
-        width: 11rem;
-        background-color: white;
-        border-radius: 6px;
-    }
-    .contact div div .fld{
-        margin: 0px 55px;
-        margin-bottom: 3rem;
-    }
-    .contact div div .fld div{
-        margin-left: 1rem;
-    }
-    .contact div div .fld div i{
-        font-size: 2rem;
-        margin: 0px 8px;
-        padding: 3px 5px;
-        border-radius: 50%;
-        background-color: var(--bs-gray-400);
-    }
-    .contact div div .row div{
-        font-size: 25px;
-        padding: 0px 6rem;
-        margin: 0px -2px;
-    }
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -495,13 +437,10 @@ nav div a div ul li a{
 
 @media(min-width:1200px){
     .navbar {
-        margin: 0px 4rem;
+        background-color: #f4f4f4;
     }
     .navbar div i {
         margin: 0px 70px;
-    }
-    .navbar div .items{
-        display: none;
     }
     .navbar div .items ul{
         list-style: none;
@@ -512,8 +451,12 @@ nav div a div ul li a{
     nav div a div ul li a{
     
     }
+    .about{
+        
+    }
     .about div{
-    
+        padding: 60px 0px;
+        margin-right: 0rem;
     }
     .about div div img {
         width: 19rem;
@@ -527,44 +470,63 @@ nav div a div ul li a{
     }
 
     .field{
-        width: 66rem;
-        margin: 0px 7rem;
+        z-index: 2;
+        width: 72rem;
+        margin: -44px 3.8rem;
     }
 
-    /* .field div{
-    
-    }
-    .field div div i{
-        font-size: var(--icon-size);
-        margin: 70px 0px 20px 0px;
-    }
-    .field div div p{
-        margin: 8px auto;
-        width: 70%;
-    } */
     .Publication{
+        margin: 100px 0px;
+        width: 100%;
         padding: 4rem 9rem;
         background-color: var(--bg)
     }
-    
+    .Publication div div div div{
+        
+
+    }
+    .Publication div div div div div{
+        padding: 41px 17px;
+
+    }
+    .Publication div div div div div h3{
+        font-size: 20px;
+        font-weight: 400;
+
+    }
+    .Publication div div div div div p{
+        font-size: 14px;
+        margin: 6px 0px;
+    }
+    .Publication div div h3{
+        font-size: 40px;
+        margin: 60px 47px;
+    }
+    .Publication div div p{
+        width: 100%;
+        font-size: 17px;
+    }
     .watch{
+        width: 100%;
         padding: 206px 200px;
     }
     
     .watch h2{
         
     }
-    .watch p{
-        
+    .watch p {
+        width: 34rem;
+        margin: -38px auto;
     }
     .watch i{
         display: flex;
-        font-size: 4rem;
-        margin: 49px 0px;
+        font-size: 6rem;
+        margin: 74px 0px;
         justify-content: space-around;
     }
     
     .download{
+        width: 100%;
     
     }
     .download .dow_typ {
@@ -585,6 +547,7 @@ nav div a div ul li a{
         margin: 0px 29px;
     }
     .contact{
+        width: 100%;
         background-color: var(--dark-contact);
     }
     .fld .social{
@@ -596,10 +559,74 @@ nav div a div ul li a{
         border-radius: 50%;
     }
     .contact .row{
-        width: 49rem;
+        display: -webkit-box;
     }
     footer{
         background-color: rgb(52, 58, 64);
+        color: white;
+        text-align: center;
+        padding: 22px 0px;
+    }
+
+    .navbar div i{
+        display: none;
+    }
+    .navbar div .items{
+        display: block;
+    }
+    .navbar div .items ul{
+        margin: 0px 0px;
+    }
+    
+    .navbar div .items ul li{
+        display: inline-block;
+    }
+    .field{
+        
+    }
+    .field div{
+        
+    }
+    .field div div{
+        
+    }
+    .field div div i{
+        font-size: 40px;
+    }
+    .field div div p{
+        
+    }
+    .contact{
+        padding: 60px 3rem;
+        width: 100%;
+    }
+    .contact div div .fld img{
+        margin: 30px 28px;
+        width: 11rem;
+        background-color: white;
+        border-radius: 6px;
+    }
+    .contact div div .fld{
+        margin: 0px 55px;
+        margin-bottom: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contact div div .fld div{
+        margin-left: 1rem;
+    }
+    .contact div div .fld div i{
+        font-size: 2rem;
+        margin: 0px 8px;
+        padding: 3px 5px;
+        border-radius: 50%;
+        background-color: var(--bs-gray-400);
+    }
+    .contact div div .row div{
+        font-size: 25px;
+        padding: 0px 6rem;
+        margin: 0px -2px;
     }
 }
 
